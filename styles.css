@@ -157,8 +157,8 @@ header {
 
 .welcom {
   padding: 6px;
-  border: 1px black;
-  box-shadow: inset 0 0 10px #848181;
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px #300c0c;
   justify-content: space-around;
   border-radius: 20px;
   font-size: 20px;
@@ -195,8 +195,8 @@ h4 {
 }
 
 .cities {
-  border: 1px black;
-  box-shadow: inset 5px 5px 5px 5px #391212;
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px #300c0c;
   border-radius: 20px;
   padding: 20px;
   margin: 10px;
@@ -246,8 +246,8 @@ h4 {
 }
 
 .travel {
-  border: 1px black;
-  box-shadow: inset 5px 5px 5px 5px #391212;
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px #300c0c;
   border-radius: 20px;
   padding: 20px;
   margin: 10px;
@@ -298,8 +298,8 @@ h4 {
 }
 
 .now {
-  border: 1px black;
-  box-shadow: inset 0 0 10px #000000;
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px #300c0c;
   border-radius: 20px;
   margin: 10px;
   display: flex;
@@ -329,68 +329,67 @@ h4 {
   display: flex;
   align-items: center;
   gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-self: center;
 }
 
 @media (max-width: 600px) {
   .projects {
-    max-width: 90%;
+    width: 90%;
     flex-direction: column;
   }
 }
 
 .project {
-  border: 1px black;
-  box-shadow: inset 5px 5px 5px 5px #391212;
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px #300c0c;
   border-radius: 20px;
   border-radius: 20px;
   padding: 20px;
   margin: 10px;
   gap: 20px;
   position: relative;
-  width: 100%;
+  width: 270px;
   height: 400px;
   align-items: center;
   justify-content: center;
 }
 
 .project img {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   border-radius: 14px;
   box-shadow: 2px 2px 8px #815656;
-  padding: 10px;
   transition: opacity 0.1s;
   align-items: center;
   margin: auto;
-    cursor: pointer;
-
+  cursor: pointer;
 }
 
 .project h5 {
   position: absolute;
-  top: 50%;
-  left: 24px; /* aligns to left with some padding */
-  right: auto;
-  width: 50%;
+  top: 20%;
+  left: 50%;
+  width: 150px;
+  transform: translate(-50%, -50%); /* centers both horizontally & vertically */
   opacity: 0;
-  transform: translateY(-50%);
   background: #3b0606e0;
   color: #fff;
-  padding: 1px 10px;
+  padding: 10px 10px;
   border-radius: 14px;
   font-size: 14px;
   text-align: center;
-  transition: opacity 0.3s;
+  transition: opacity 0.5s;
   display: flex;
-  align-items: center;
 }
 
 .project:hover img {
-  opacity: 0.1;
+  opacity: 0.2;
 }
 
 .project:hover h5 {
-  opacity: 1;
+  opacity: 5;
 }
 
 @media (max-width: 600px) {
@@ -405,11 +404,6 @@ h4 {
     max-width: 300px;
   }
   .project h5 {
-    left: 0;
-    right: 0;
-    margin: auto;
-    top: 30%;
-    padding: 6px 6px;
     justify-content: center;
     font-size: 10px;
   }
@@ -418,7 +412,7 @@ h4 {
 .skills {
   display: flex;
   gap: 12px;
-  margin-top: 10px;
+  margin-top: 50px;
   flex-direction: column;
   align-items: center;
 }
@@ -456,8 +450,8 @@ h4 {
 }
 
 .Life-Experience {
-  border: 1px black;
-  box-shadow: inset 0 0 10px #000000;
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px #300c0c;
   border-radius: 20px;
   margin: 10px;
   display: flex;
@@ -506,19 +500,19 @@ h4 {
   margin: 0 auto;
   padding: 16px;
   box-sizing: border-box;
-  border: 1px black;
-  box-shadow: inset 0 0 10px #000000;
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px #300c0c;
   border-radius: 10px;
   width: fit-content;
 }
 .message {
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px #300c0c;
   max-width: 350px;
   width: 100%;
   margin: 0 auto;
   padding: 16px;
   box-sizing: border-box;
-  border: 1px black;
-  box-shadow: inset 0 0 10px #000000;
   border-radius: 10px;
 }
 
