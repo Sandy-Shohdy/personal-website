@@ -342,13 +342,12 @@ h4 {
   gap: 20px;
   display: flex;
   align-items: center;
-  justify-self: center;
-  width: 90%;
+
+  justify-content: center; /* horizontal center */
 }
 
 @media (max-width: 600px) {
   .projects {
-    width: 90%;
     flex-direction: column;
   }
 }
