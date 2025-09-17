@@ -470,11 +470,7 @@ h4 {
   margin: 10px;
 }
 
-@media (max-width: 600px) {
-  .Life-Experience {
-    width: 90%;
-  }
-}
+
 /* contact */
 .text-box {
   font-size: 15px;
