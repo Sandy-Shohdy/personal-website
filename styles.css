@@ -100,48 +100,46 @@ body {
 }
 
 header {
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 90%;
+  max-width: 1000px;
+  padding: 15px 25px;
+
   border: 1px black;
   border-radius: 20px;
   background-color: rgba(72, 61, 61, 0.9);
-  display: flex;
-  position: fixed;
-  top: 10px;
-  margin: 10px;
-  width: 90%;
-  z-index: 1000;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 14px;
-  font-family: initial;
-  padding: 0 10px;
   color: #f9cdcd;
+  font-size: 12px;
+  z-index: 1000;
   text-align: center;
-  word-break: break-word;
-  justify-self: center;
 }
 
-.header {
-  margin: 0px;
-}
-.pro {
-  margin: 10px;
-  gap: 10px;
+header nav.pro {
   display: flex;
-  padding: 0 20px;
+  gap: 10px;
+  text-align: center;
+  align-items: center;
 }
 
-/* Mobile (vertical, centered) */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   header {
-    max-height: 90%;
+    flex-direction: row;
+    align-items: center;
     width: 90%;
+    padding: 10px 15px;
   }
 
-  .pro {
-    max-width: 90%;
-    justify-content: center;
-    padding: 0;
-    gap: 7px;
+  header nav.pro {
+    flex-direction: row;
+    gap: 10px;
   }
 }
 
@@ -152,11 +150,12 @@ header {
   text-align: center;
 }
 
-.Name {
+.welcom-p {
   border: 1px solid black;
   box-shadow: 5px 5px 5px #300c0c;
   border-radius: 20px;
   justify-self: center;
+
   width: 90%;
 }
 
@@ -221,7 +220,6 @@ h4 {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  width: fit-content;
 }
 
 .cities-text {
@@ -344,6 +342,7 @@ h4 {
   display: flex;
   align-items: center;
   justify-self: center;
+  width: 90%;
 }
 
 @media (max-width: 600px) {
@@ -365,6 +364,7 @@ h4 {
   height: 350px;
   align-items: center;
   justify-content: center;
+  justify-self: center;
 }
 
 .project img {
@@ -506,6 +506,7 @@ h4 {
   padding: 10px;
   box-sizing: border-box;
   border-radius: 10px;
+  justify-self: center;
 }
 .message {
   border: 1px solid black;
@@ -516,6 +517,7 @@ h4 {
   box-sizing: border-box;
   border-radius: 10px;
   gap: 10px;
+  justify-self: center;
 }
 
 @media (max-width: 600px) {
