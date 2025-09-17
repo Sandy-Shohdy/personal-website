@@ -118,6 +118,7 @@ header {
   padding: 0 10px;
   color: #f9cdcd;
   text-align: center;
+  word-break: break-word;
 }
 
 .header {
