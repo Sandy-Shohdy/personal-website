@@ -129,7 +129,7 @@ header nav.pro {
   align-items: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   header {
     flex-direction: row;
     align-items: center;
@@ -151,23 +151,24 @@ header nav.pro {
 }
 
 .welcom-p {
-  border: 1px solid black;
-  box-shadow: 5px 5px 5px #300c0c;
-  border-radius: 20px;
-  justify-self: center;
-
-  width: 90%;
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center; /* vertical center */
 }
 
 .welcom {
-  text-align: center;
-  margin: 0;
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px #300c0c;
+  border-radius: 20px;
   padding: 10px;
+  text-align: center;
+  width: 80%;
 }
 
 @media (max-width: 600px) {
-  .Name {
-    width: 90%;
+  .welcom {
+    font-size: 15px;
+    max-width: 90%;
   }
 }
 
