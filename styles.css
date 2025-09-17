@@ -151,14 +151,27 @@ header {
   justify-content: center;
   text-align: center;
 }
-.welcom {
-  padding: 6px;
+
+.Name {
   border: 1px solid black;
   box-shadow: 5px 5px 5px #300c0c;
   border-radius: 20px;
   justify-self: center;
   width: 90%;
 }
+
+.welcom {
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+
+@media (max-width: 600px) {
+  .Name {
+    width: 90%;
+  }
+}
+
 .title {
   font-size: 16px;
 }
