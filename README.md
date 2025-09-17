@@ -32,7 +32,7 @@ Welcome to my personal portfolio website! This project showcases my journey, ski
 
 ### Background
 
-- **Background image:** `Imgs/_ (1).jpeg`
+- **Background image:** `Imgs/background.jpeg`
 - **Style:** Cover, centered, fixed, no-repeat
 
 ## How to Use
@@ -51,6 +51,24 @@ personal-website/
 ```
 
 ## Author
+
+## reflection
+
+`What did you learn during this project?`
+
+I learned a lot of things during this project. First, I learned to be more patient, because sometimes things didn’t work the way I expected. I also learned how important it is to search, explore, and try different solutions. I picked up many new skills in HTML and CSS, and I also learned that it’s okay to ask for help and learn from others. Finally, I realized how nice it feels to encourage and share ideas with others too.
+
+`What was your biggest challenge, and how did you approach it?`
+I had quite a few challenges while working on my project. The first one was figuring out what kind of information I should put on the website. In the end, I decided to write about myself and my journey, which made the project feel more personal.
+
+Another big challenge was working with HTML and CSS. I often struggled with styling and layouts, so I spent a lot of time searching, experimenting, and asking ChatGPT for help until I found solutions.
+
+`If you were ever stuck while working on your project, how did you get unstuck? How did you find a way to move forward?`
+
+I got stuck many times, especially with CSS. Whenever that happened, I tried not to stress too much. I would take a step back, breathe, and then go back to testing different ideas. I also searched online and asked questions until I found a way to fix the problem. Each time I got stuck, I ended up learning something new.
+
+`What are you most proud of in your site?`
+I’m most proud that I learned so much from every part of the site. Each section was like a mini learning experience, and putting it all together showed me how much progress I made.
 
 Sandy Shohdy
 
